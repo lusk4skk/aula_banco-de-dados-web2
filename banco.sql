@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS sistema;
+
+USE sistema;
+
+CREATE TABLE IF NOT EXISTS avaliacao (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    estrelas INT NOT NULL,
+    comentario TEXT NOT NULL
+);
+
+
